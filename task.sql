@@ -17,7 +17,7 @@ CREATE TABLE Customers (
     Address VARCHAR(100)
 );
 
--CREATE TABLE Orders (
+CREATE TABLE Orders (
     ID INT AUTO_INCREMENT PRIMARY KEY,
     CustomerID INT,
     Date DATE NOT NULL,
